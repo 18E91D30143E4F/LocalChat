@@ -1,0 +1,13 @@
+﻿<Window x:Class="P2PChat.HostsForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:P2PChat"
+        mc:Ignorable="d"
+        Title="HostsForm" Height="250" Width="400" Loaded="Window_Loaded">
+    <Grid>
+        <ListBox VerticalAlignment="Top" Name="lbHosts" Width="370" Height="170" Margin="0 5 0 0"></ListBox>
+        <Button Name="BtnSelect"  Content="SELECT" FontSize="15" Click="BtnSelect_Click"  Width="370" Height="30" VerticalAlignment="Bottom" Margin="0 0 0 5"></Button>
+    </Grid>
+</Window>
